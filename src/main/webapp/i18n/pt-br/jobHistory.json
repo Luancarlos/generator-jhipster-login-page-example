@@ -1,0 +1,27 @@
+{
+  "loginPageExampleApp": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "createLabel": "Criar novo Job History",
+        "createOrEditLabel": "Criar ou editar Job History",
+        "notFound": "Nenhum Job History encontrado"
+      },
+      "created": "Um novo Job History foi criado com o identificador {{ param }}",
+      "updated": "Um Job History foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Job History foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Job History {{ id }}?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

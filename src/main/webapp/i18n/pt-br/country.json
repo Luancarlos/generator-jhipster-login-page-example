@@ -1,0 +1,23 @@
+{
+  "loginPageExampleApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Criar novo Country",
+        "createOrEditLabel": "Criar ou editar Country",
+        "notFound": "Nenhum Country encontrado"
+      },
+      "created": "Um novo Country foi criado com o identificador {{ param }}",
+      "updated": "Um Country foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Country foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name",
+      "region": "Region"
+    }
+  }
+}

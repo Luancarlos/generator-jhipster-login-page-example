@@ -1,0 +1,22 @@
+{
+  "loginPageExampleApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "createLabel": "Criar novo Region",
+        "createOrEditLabel": "Criar ou editar Region",
+        "notFound": "Nenhum Region encontrado"
+      },
+      "created": "Um novo Region foi criado com o identificador {{ param }}",
+      "updated": "Um Region foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Region foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Region {{ id }}?"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "regionName": "Region Name"
+    }
+  }
+}

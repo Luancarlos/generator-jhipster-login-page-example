@@ -1,0 +1,84 @@
+<div class="card jh-card">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div *ngIf="employee">
+                <h2><span jhiTranslate="loginPageExampleApp.employee.detail.title">Employee</span> {{employee.id}}</h2>
+                <hr>
+                <jhi-alert-error></jhi-alert-error>
+                <dl class="row jh-entity-details">
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.firstName" [ngbTooltip]="'loginPageExampleApp.employee.help.firstName' | translate">First Name</span></dt>
+                        <dd>
+                            <span>{{employee.firstName}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.lastName">Last Name</span></dt>
+                        <dd>
+                            <span>{{employee.lastName}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.email">Email</span></dt>
+                        <dd>
+                            <span>{{employee.email}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.phoneNumber">Phone Number</span></dt>
+                        <dd>
+                            <span>{{employee.phoneNumber}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.hireDate">Hire Date</span></dt>
+                        <dd>
+                            <span>{{employee.hireDate}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.salary">Salary</span></dt>
+                        <dd>
+                            <span>{{employee.salary}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.commissionPct">Commission Pct</span></dt>
+                        <dd>
+                            <span>{{employee.commissionPct}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.manager">Manager</span></dt>
+                        <dd>
+                            <div *ngIf="employee.manager">
+                                <a [routerLink]="['/employee', employee.manager?.id, 'view']">{{employee.manager?.id}}</a>
+                            </div>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.employee.department">Department</span></dt>
+                        <dd>
+                            <div *ngIf="employee.department">
+                                <a [routerLink]="['/department', employee.department?.id, 'view']">{{employee.department?.id}}</a>
+                            </div>
+                        </dd>
+                    </div>
+                </dl>
+    
+                <button type="submit"
+                        (click)="previousState()"
+                        class="btn btn-info">
+                    <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+                </button>
+    
+                <button type="button"
+                        [routerLink]="['/employee', employee.id, 'edit']"
+                        class="btn btn-primary">
+                    <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,38 @@
+<div class="card jh-card">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div *ngIf="task">
+                <h2><span jhiTranslate="loginPageExampleApp.task.detail.title">Task</span> {{task.id}}</h2>
+                <hr>
+                <jhi-alert-error></jhi-alert-error>
+                <dl class="row jh-entity-details">
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.task.title">Title</span></dt>
+                        <dd>
+                            <span>{{task.title}}</span>
+                        </dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt><span jhiTranslate="loginPageExampleApp.task.description">Description</span></dt>
+                        <dd>
+                            <span>{{task.description}}</span>
+                        </dd>
+                    </div>
+                </dl>
+    
+                <button type="submit"
+                        (click)="previousState()"
+                        class="btn btn-info">
+                    <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+                </button>
+    
+                <button type="button"
+                        [routerLink]="['/task', task.id, 'edit']"
+                        class="btn btn-primary">
+                    <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

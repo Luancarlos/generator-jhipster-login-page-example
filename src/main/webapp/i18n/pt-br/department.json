@@ -1,0 +1,24 @@
+{
+  "loginPageExampleApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "createLabel": "Criar novo Department",
+        "createOrEditLabel": "Criar ou editar Department",
+        "notFound": "Nenhum Department encontrado"
+      },
+      "created": "Um novo Department foi criado com o identificador {{ param }}",
+      "updated": "Um Department foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Department foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Department {{ id }}?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

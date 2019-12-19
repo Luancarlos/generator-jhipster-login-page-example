@@ -1,0 +1,26 @@
+{
+  "loginPageExampleApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "createLabel": "Criar novo Job",
+        "createOrEditLabel": "Criar ou editar Job",
+        "notFound": "Nenhum Job encontrado"
+      },
+      "created": "Um novo Job foi criado com o identificador {{ param }}",
+      "updated": "Um Job foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Job foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Job {{ id }}?"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee"
+    }
+  }
+}

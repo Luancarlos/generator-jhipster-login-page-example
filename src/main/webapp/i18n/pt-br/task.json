@@ -1,0 +1,24 @@
+{
+  "loginPageExampleApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "Criar novo Task",
+        "createOrEditLabel": "Criar ou editar Task",
+        "notFound": "Nenhum Task encontrado"
+      },
+      "created": "Um novo Task foi criado com o identificador {{ param }}",
+      "updated": "Um Task foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Task foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}
