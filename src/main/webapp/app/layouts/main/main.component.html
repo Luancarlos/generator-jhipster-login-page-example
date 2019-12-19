@@ -1,0 +1,9 @@
+<jhi-page-ribbon></jhi-page-ribbon>
+<div *ngIf="isAuthenticate()">
+    <router-outlet name="navbar"></router-outlet>
+</div>
+<div [ngClass]="isAuthenticate() ? 'container-fluid' : 'div-100'">
+        <router-outlet></router-outlet>
+    <jhi-footer *ngIf="isAuthenticate()"></jhi-footer>
+</div>
+

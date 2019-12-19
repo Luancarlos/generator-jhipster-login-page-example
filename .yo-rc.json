@@ -1,0 +1,60 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.loginpageexample",
+      "nativeLanguage": "pt-br"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "LoginPageExample",
+    "packageName": "br.com.loginpageexample",
+    "packageFolder": "br/com/loginpageexample",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NmQzNTExOWQ5MTI0ZTI2MDAzNTJjOTFjZjg0YTVjNTZmNWM1NThmOWViYzViNTA3OTc2MjNiYTU0NDJmMGRjNDM4ZjkyOGY4NDBjMGNlYTI3NDFmNDFiMmRkMzkxNGE3MzhmM2NjNTllMDEzMGIwYjdiYmJiYWJmZjVmZjI3ZDU=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-login-page",
+        "version": "0.0.1"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "pt-br"
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-login-page",
+        "version": "0.0.1"
+      }
+    ]
+  },
+  "generator-jhipster-login-page": {
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "LoginPageExample",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": ""
+  }
+}
